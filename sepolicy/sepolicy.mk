@@ -5,3 +5,6 @@
 
 BOARD_SEPOLICY_DIRS += \
     vendor/cm/sepolicy
+	
+BOARD_SEPOLICY_UNION += \
+    service_contexts
